@@ -1,19 +1,29 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+site is live at https://mikhails9.github.io/test_fractal_web/
 
-Currently, two official plugins are available:
+Features
+🚀 Fast development with Vite
+⚛️ React 17.x with Fast Refresh
+🛠️ TypeScript integration for type-safe code
+💅 ESLint configured for code linting
+🔄 HMR enabled for instantaneous feedback
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Developing
 
-## Expanding the ESLint configuration
+   git clone https://github.com/mikhails9/test_fractal_web.git
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+      cd test_fractal_web
 
-- Configure the top-level `parserOptions` property like this:
+         npm install
+
+            npm run dev
+
+
 
 ```js
+
+
 export default {
   // other rules...
   parserOptions: {
@@ -24,7 +34,3 @@ export default {
   },
 }
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
